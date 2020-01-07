@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="StickyPad.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NoteTab1Contents" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tab1</Value>
+    </Setting>
+    <Setting Name="NoteTab2Contents" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Tab2</Value>
+    </Setting>
+    <Setting Name="UpgradeRequired" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WindowOpacity" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.6</Value>
+    </Setting>
+    <Setting Name="BackColor" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FF000000</Value>
+    </Setting>
+    <Setting Name="ForeColor" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FFF3F3F3</Value>
+    </Setting>
+    <Setting Name="Tab1IsActive" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TabFontSize" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="TextCaret" Type="System.Windows.Media.Color" Scope="User">
+      <Value Profile="(Default)">#FFE2E2E2</Value>
+    </Setting>
+    <Setting Name="UseAccentWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseAccentBorder" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
