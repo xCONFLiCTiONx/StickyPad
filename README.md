@@ -1,5 +1,7 @@
 # StickyPad - Dark Themed
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?business=GKLE6HYQE46SA&no_recurring=0&item_name=i%21i%21i%21+NOTE+WHAT+THIS+DONATION+IS+FOR+i%21i%21i%21&currency_code=USD)
+
 Just a simple form of Windows 10 Sticky Notes without the annoying stuff like being an open window in the taskbar and popups.
 
 I wanted a sticky pad that was just for text and no links but more importantly, I hated seeing that icon as an open window in the taskbar.
