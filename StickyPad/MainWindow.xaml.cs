@@ -149,6 +149,11 @@ namespace StickyPad
             BorderAccentCheckBox.Unchecked += BorderAccentCheckBox_Unchecked;
 
             MouseUp += MainWindow_MouseUp;
+
+            Left = Default.LocationX;
+            Top = Default.LocationY;
+            Width = Default.WindowWidth;
+            Height = Default.WindowHeight;
         }
 
         private void MainWindow_MouseUp(object sender, MouseButtonEventArgs e)
@@ -217,6 +222,12 @@ namespace StickyPad
             {
                 Default.Tab1IsActive = false;
             }
+
+            Default.LocationX = Left;
+            Default.LocationY = Top;
+            Default.WindowWidth = Width;
+            Default.WindowHeight = Height;
+            Default.Save();
 
             Default.Save();
         }
@@ -479,13 +490,11 @@ namespace StickyPad
 
         private void BlackBackButton_Click(object sender, RoutedEventArgs e)
         {
-
             SetDarkMode(BlackBackButton);
         }
 
         private void GrayBackButton_Click(object sender, RoutedEventArgs e)
         {
-
             SetDarkMode(GrayBackButton);
         }
 
@@ -610,7 +619,6 @@ namespace StickyPad
 
                 window.Background = windowColor;
                 window.Background.Opacity = Default.WindowOpacity;
-
 
                 var darkBrush = ColorHelper.ColorShade(SystemParameters.WindowGlassColor, false);
 
