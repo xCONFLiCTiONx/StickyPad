@@ -4,11 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Name="window" Title="Sticky Pad" Opacity="0" Height="100" Width="200" ShowInTaskbar="False" WindowStyle="none"
+        Name="window" Title="Sticky Pad" Opacity="0" Height="320" Width="320" ShowInTaskbar="False" WindowStyle="none"
         WindowStartupLocation="Manual" AllowsTransparency="True" Icon="Resources\STICKY.ico"
         Foreground="#FFF3F3F3" BorderBrush="Black" BorderThickness="1"
         MouseEnter="Window_MouseEnter" MouseLeave="Window_MouseLeave"
-        Closing="Window_Closing" ResizeMode="CanResizeWithGrip">
+        Closing="Window_Closing" ResizeMode="CanResizeWithGrip" MinWidth="200" MinHeight="100">
     <Window.Background>
         <SolidColorBrush Color="Black"/>
     </Window.Background>
