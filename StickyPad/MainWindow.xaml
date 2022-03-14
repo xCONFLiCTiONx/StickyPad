@@ -8,7 +8,7 @@
         WindowStartupLocation="Manual" AllowsTransparency="True" Icon="Resources\STICKY.ico"
         Foreground="#FFF3F3F3" BorderBrush="Black" BorderThickness="1"
         MouseEnter="Window_MouseEnter" MouseLeave="Window_MouseLeave"
-        Closing="Window_Closing">
+        Closing="Window_Closing" ResizeMode="CanResizeWithGrip" MinWidth="200" MinHeight="100">
     <Window.Background>
         <SolidColorBrush Color="Black"/>
     </Window.Background>
